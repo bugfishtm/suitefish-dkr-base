@@ -1,5 +1,8 @@
 # Suitefish Base Image
 
+> [!TIP]
+> No new features are currently planned for this project. However, users are welcome to create issues or feature requests, which will be reviewed and responded to within 1–3 weeks.
+
 ## 🗒️ Overview
 
 This repository contains the **internal base Docker image** used for all Suitefish application instances and deployment pipelines. It is designed to provide a consistent, secure, and up-to-date foundation for Suitefish development and deployment environments.
