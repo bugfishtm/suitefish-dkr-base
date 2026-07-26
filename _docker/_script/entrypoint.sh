@@ -149,7 +149,7 @@ sleep 5
 echo "[SFD] MySQL: Update Initial Environment MySQL Root Password."
 mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED BY '$sf_db_pass';" > /dev/null 2>&1
 echo "[SFD] MySQL: Create Initial MySQL Database if not exists."
-mysql -u root -p"$sf_db_pass" -e "CREATE DATABASE IF NOT EXISTS '$sf_db_db';" > /dev/null 2>&1
+mysql -u root -p"$sf_db_pass" -e "CREATE DATABASE IF NOT EXISTS \`$sf_db_db\`;" > /dev/null 2>&1
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 ##
